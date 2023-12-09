@@ -39,7 +39,7 @@ body {
     font-family : 'Hind', sans-serif;
     font-size   : 15px;
     line-height : 1.8em;
-    color       : #989898;
+    color       : #111;
     font-weight : 300;
     background  : #f8f8f8;
     }
@@ -772,3 +772,18 @@ button:focus,
     text-align : center;
     top        : 65%;
     }
+
+.row img {
+    height: 150px;
+    width: 150px;
+}
+
+.section-education .row img {
+    height: 120px;
+    width: 120px;
+}
+
+.section-publications .row img {
+    height: 200px;
+    width: 200px;
+}
